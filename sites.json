@@ -1,0 +1,129 @@
+[
+    {
+      "id": "caserones",
+      "nombre": "Caserones",
+      "hops": [
+        {
+          "name": "Destino Caserones",
+          "host": "10.40.177.222",
+          "port": 50560,
+          "user": "jigsaw",
+          "password": "hXgN$mlcc2025"
+        }
+      ]
+    },
+    {
+      "id": "antucoya",
+      "nombre": "Antucoya",
+      "hops": [
+        {
+          "name": "Pivote Central",
+          "host": "10.169.140.40",
+          "port": 22,
+          "user": "jigsaw",
+          "password": "Hxgn$2025"
+        },
+        {
+          "name": "Antucoya Primario (VIP)",
+          "host": "10.16.42.140",
+          "port": 22,
+          "user": "jigsaw",
+          "password": "Hxgn2026"
+        }
+      ]
+    },
+    {
+      "id": "centinela",
+      "nombre": "Centinela",
+      "hops": [
+        {
+          "name": "Pivote Central",
+          "host": "10.169.140.40",
+          "port": 22,
+          "user": "jigsaw",
+          "password": "Hxgn$2025"
+        },
+        {
+          "name": "Centinela Servidor",
+          "host": "10.7.200.251",
+          "port": 22,
+          "user": "jigsaw",
+          "use_pivot_key": true
+        }
+      ]
+    },
+    {
+        "id": "zaldivar",
+        "nombre": "Zaldívar",
+        "hops": [
+          {
+            "name": "Pivote Central",
+            "host": "10.169.140.40",
+            "port": 22,
+            "user": "jigsaw",
+            "password": "Hxgn$2025"
+          },
+          {
+            "name": "Pivote Faena",
+            "host": "10.18.211.40",
+            "port": 22,
+            "user": "hxm",
+            "use_pivot_key": true
+          },
+          {
+            "name": "Destino Zaldívar",
+            "host": "10.18.200.19",
+            "port": 22,
+            "user": "jigsaw",
+            "use_pivot_key": true
+          }
+        ]
+      },
+    {
+      "id": "manto_verde",
+      "nombre": "Manto Verde",
+      "hops": [
+        {
+          "name": "Pivote Central",
+          "host": "10.169.140.43",
+          "port": 22,
+          "user": "jigsaw",
+          "password": "Hxgn$2025"
+        },
+        {
+          "name": "Pivote Hexagon",
+          "host": "10.240.150.4",
+          "port": 22,
+          "user": "hexagon",
+          "password": "xKQzFQcAHNlV6v1iLGOn"
+        },
+        {
+          "name": "Servidor Final",
+          "host": "192.168.30.22",
+          "port": 22,
+          "user": "jigsaw",
+          "password": "hXgN$aam2025"
+        }
+      ]
+    },
+    {
+      "id": "cerro_negro",
+      "nombre": "Cerro Negro",
+      "hops": [
+        {
+          "name": "Pivote Central",
+          "host": "10.169.140.42",
+          "port": 22,
+          "user": "jigsaw",
+          "password": "Hxgn@2023$"
+        },
+        {
+          "name": "Destino Cerro Negro",
+          "host": "172.20.2.62",
+          "port": 22,
+          "user": "jigsaw",
+          "password": "hXgN$capcnn2025"
+        }
+      ]
+    }
+  ]
